@@ -203,6 +203,8 @@
     let pc_config = {"iceServers":[
       // {"urls": "stun:stun.l.google.com:19302"},
       // {"urls": "stun:stun1.l.google.com:19302"},
+      {"urls":"stun:stunserver.org"},
+      {url:'stun:stunserver.org'},
       {"urls": "stun:stun2.l.google.com:19302"}
     ]};
     let peer = new RTCPeerConnection(pc_config);
